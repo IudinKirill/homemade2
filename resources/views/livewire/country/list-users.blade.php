@@ -4,7 +4,7 @@
     <!-- Search -->
     <div class="mb-4">
         <input type="text"
-               placeholder="Search by name or email..."
+               placeholder="Search"
                wire:model.live.debounce.400ms="search"
                class="border px-4 py-2 rounded w-full">
     </div>
