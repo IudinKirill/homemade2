@@ -1,7 +1,6 @@
 <div class="container m-auto">
     <h2 class="text-2xl font-bold mb-4">List Users</h2>
 
-    <!-- Search -->
     <div class="mb-4">
         <input type="text"
                placeholder="Search"
@@ -9,7 +8,7 @@
                class="border px-4 py-2 rounded w-full">
     </div>
 
-    <!-- Table -->
+
     <table class="w-full border-collapse">
         <thead>
             <tr class="bg-green-600 text-white">
@@ -29,7 +28,6 @@
         </tbody>
     </table>
 
-    <!-- Pagination -->
     <div class="mt-6">
         {{ $users->links() }}
     </div>
