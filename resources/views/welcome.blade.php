@@ -8,7 +8,6 @@
 <body class="bg-gray-100 font-sans p-6">
     <div class="max-w-6xl mx-auto">
 
-        <!-- Кнопки переключения -->
         <div class="flex space-x-4 mb-6">
             <a href="/"
                class="px-6 py-2 bg-blue-500 text-white hover:bg-blue-600">
@@ -21,7 +20,6 @@
             </a>
         </div>
 
-        <!-- Контент -->
         <div>
             @if (request()->is('/'))
                 <livewire:country.list-countries />
